@@ -1,0 +1,54 @@
+@font-face {
+  font-family: NerdFont;
+  src: url("./NerdFont.ttf") format("truetype");
+}
+
+body {
+    font-family: "Calibri";
+    background: #dbf2cb;
+}
+
+h1 {
+    color: #5e3426;
+}
+
+.container {
+    width: 1440px;
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.racconti {
+    width: 250px;
+}
+
+.robe {
+    width: 250px;
+}
+
+.poesie {
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: #d48787;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+a::after {
+    transition: .2s;
+    font-family: "NerdFont";
+    content: " ";
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+a:hover::after{
+    margin-left: 20px;
+}
