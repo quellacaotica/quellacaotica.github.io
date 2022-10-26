@@ -44,7 +44,6 @@ a {
 a::after {
     transition: .2s;
     font-family: "NerdFont";
-    content: " ";
     font-size: 32px;
     margin-left: 10px;
 }
