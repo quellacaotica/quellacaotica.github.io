@@ -4,7 +4,7 @@ body {
     margin: 50px auto;
     display: block;
     font-family: "Calibri";
-    background: #dbf2cb;
+    background: black;
 }
 
 h1 {
@@ -12,24 +12,23 @@ h1 {
     padding-bottom: 12px;
     margin-bottom: 24px;
     color: #5e3426;
-    border-bottom: 2px dashed #855c50;
 }
 
 p {
     margin: 0;
     line-height: 1.5;
     font-size: 20px;
-    color: #4f2517;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: #d48787;
+    color: white;
     position: relative;
     display: flex;
     align-items: center;
     font-size: 32px;
-    border-bottom: 2px solid #e57979;
+    border-bottom: 2px solid white;
     display: inline-block;
     padding: 0 10px;
 }
