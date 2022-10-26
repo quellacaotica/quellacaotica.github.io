@@ -1,0 +1,35 @@
+body {
+    width: 1440px;
+    max-width: calc(100% - 64px);
+    margin: 50px auto;
+    display: block;
+    font-family: "Calibri";
+    background: #dbf2cb;
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    color: #5e3426;
+    border-bottom: 2px dashed #855c50;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #4f2517;
+}
+
+a {
+    text-decoration: none;
+    color: #d48787;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    border-bottom: 2px solid #e57979;
+    display: inline-block;
+    padding: 0 10px;
+}
